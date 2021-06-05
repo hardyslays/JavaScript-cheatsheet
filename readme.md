@@ -52,7 +52,7 @@ At last, nothing comes without practice, so if you want to get some real experie
 18. [IMPORT AND EXPORT](#imp-exp)
 19.
 
-# VARIABLES: {#variables}
+# VARIABLES:
 
 Types of variables:
 
