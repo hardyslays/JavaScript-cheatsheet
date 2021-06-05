@@ -18,7 +18,7 @@ At last, nothing comes without practice, so if you want to get some real experie
 
 # TABLE OF CONTENTS:
 
-1. [VARIABLES IN JAVASCRIPT](#VARIABLES:)
+1. [VARIABLES IN JAVASCRIPT](# VARIABLES:)
 2. [OPERATORS IN JAVASCRIPT](#operators)
 3. [ARRAYS](#array)
 4. [FUNCTIONS](#function)
