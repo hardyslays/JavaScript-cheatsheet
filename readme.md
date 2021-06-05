@@ -40,7 +40,7 @@ At last, nothing comes without practice, so if you want to get some real experie
 14. [SPREAD PARAMETERS](#spread-parameters)
 15. [DESTRUCTURING](#destructuring)
     - [DESTRUCTURING OBJECTS](#destructuring-objects)
-    - [DESTRUCTURING ARRAYS](#destructuring-array)
+    - [DESTRUCTURING ARRAYS](#destructuring-arrays)
     - [DESTRUCTURING FUNCTION ARGUMENTS](#destructuring-function-arguments)
 16. [SPECIAL STRING-TEMPLATE LITERALS](#template-literal)
 17. [CLASSES](#classes)
@@ -48,7 +48,9 @@ At last, nothing comes without practice, so if you want to get some real experie
     - [PRIVATE AND PROTECTED PROPERTIES](#private-and-protected-properties)
     - [GETTERS AND SETTERS](#getter-and-setter)
 18. [IMPORT AND EXPORT](#import-and-export)
-19.
+
+***
+***
 
 # VARIABLES
 
