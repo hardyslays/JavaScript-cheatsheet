@@ -548,7 +548,7 @@ var num = parseInt(s, 2);
 
 ---
 
-# VAR vs LET: {#varvslet}
+# VAR vs LET
 
 Some major differences between **var** and **let** keywords are:
 
@@ -593,7 +593,7 @@ Some major differences between **var** and **let** keywords are:
 
 ---
 
-# OBJECT FREEZE: {#object-freeze}
+# OBJECT FREEZE
 
 If we declare an array or an object as const, we cannot change the whole array or object. But still, we can mutate the elements inside them one by one:
 
