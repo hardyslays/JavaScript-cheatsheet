@@ -31,7 +31,7 @@ At last, nothing comes without practice, so if you want to get some real experie
    - [FOR LOOP](#for-loop)
    - [DO WHILE LOOP](#do-while-loop)
    - [SPECIAL FUNCTIONS](#special-functions)
-8. [VAR VS LET](#varvslet)
+8. [VAR VS LET](#var-vs-let)
 9. [OBJECT FREEZING](#object-freeze)
 10. [ARRAY FILTER METHOD](#arr-filter-function)
 11. [ARRAY MAP METHOD](#arr-map-function)
