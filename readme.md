@@ -18,7 +18,7 @@ At last, nothing comes without practice, so if you want to get some real experie
 
 # TABLE OF CONTENTS:
 
-1. [VARIABLES IN JAVASCRIPT](#variables:)
+1. [VARIABLES IN JAVASCRIPT](#variables)
 2. [OPERATORS IN JAVASCRIPT](#operators)
 3. [ARRAYS](#array)
 4. [FUNCTIONS](#function)
@@ -52,7 +52,7 @@ At last, nothing comes without practice, so if you want to get some real experie
 18. [IMPORT AND EXPORT](#imp-exp)
 19.
 
-# VARIABLES:
+# VARIABLES
 
 Types of variables:
 
