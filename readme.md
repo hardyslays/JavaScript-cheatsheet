@@ -20,36 +20,36 @@ At last, nothing comes without practice, so if you want to get some real experie
 
 1. [VARIABLES IN JAVASCRIPT](#variables)
 2. [OPERATORS IN JAVASCRIPT](#operators)
-3. [ARRAYS](#array)
-4. [FUNCTIONS](#function)
-5. [FLOW-CONTROL STATEMENTS](#control)
+3. [ARRAYS](#arrays)
+4. [FUNCTIONS](#functions)
+5. [FLOW-CONTROL STATEMENTS](#control-flow-statements)
    - [IF-ELSE STATEMENTS](#if-else)
-   - [SWITCH STATEMENTS](#switch)
-6. [OBJECTS](#object)
+   - [SWITCH STATEMENTS](#switch-case-statements)
+6. [OBJECTS](#objects)
 7. [LOOPS](#loops)
-   - [WHILE LOOP](#while)
-   - [FOR LOOP](#for)
-   - [DO WHILE LOOP](#do-while)
-   - [SPECIAL FUNCTIONS](#special-func)
-     - [RANODM](#random)
+   - [WHILE LOOP](#while-loop)
+   - [FOR LOOP](#for-loop)
+   - [DO WHILE LOOP](#do-while-loop)
+   - [SPECIAL FUNCTIONS](#special-functions)
+     - [RANODM](#math.random)
      - [PARSE-INT](#parse-int)
 8. [VAR VS LET](#varvslet)
 9. [OBJECT FREEZING](#object-freeze)
-10. [ARRAY FILTER METHOD](#arr-filter)
-11. [ARRAY MAP METHOD](#arr-map)
-12. [ARRAY REDUCE METHOD](#arr-reduce)
-13. [REST PARAMETERS](#rest)
-14. [SPREAD PARAMETERS](#spread)
-15. [DESTRUCTURING](#destructure)
-    - [DESTRUCTURING OBJECTS](#des-obj)
-    - [DESTRUCTURING ARRAYS](#des-arr)
-    - [DESTRUCTURING FUNCTION ARGUMENTS](#des-func)
-16. [SPECIAL STRING-TEMPLATE LITERALS](#template)
-17. [CLASSES](#class)
-    - [SYNTAX](#class-syn)
-    - [PRIVATE AND PROTECTED PROPERTIES](#private-protect)
-    - [GETTERS AND SETTERS](#get-set)
-18. [IMPORT AND EXPORT](#imp-exp)
+10. [ARRAY FILTER METHOD](#arr-filter-function)
+11. [ARRAY MAP METHOD](#arr-map-function)
+12. [ARRAY REDUCE METHOD](#arr-reduce-method)
+13. [REST PARAMETERS](#rest-parameters)
+14. [SPREAD PARAMETERS](#spread-parameters)
+15. [DESTRUCTURING](#destructuring)
+    - [DESTRUCTURING OBJECTS](#destructuring-objects)
+    - [DESTRUCTURING ARRAYS](#desturcturing-arrays)
+    - [DESTRUCTURING FUNCTION ARGUMENTS](#destructuring-function-arguments)
+16. [SPECIAL STRING-TEMPLATE LITERALS](#template-literal)
+17. [CLASSES](#classes)
+    - [SYNTAX](#syntax)
+    - [PRIVATE AND PROTECTED PROPERTIES](#private-and-protected-properties)
+    - [GETTERS AND SETTERS](#getter-and-setter)
+18. [IMPORT AND EXPORT](#imp-and-export)
 19.
 
 # VARIABLES
@@ -96,7 +96,7 @@ const p = 3.1419;
 
 ---
 
-# OPERATORS: {#operators}
+# OPERATORS
 
 Types of operators:
 
@@ -151,7 +151,7 @@ Types of operators:
 
 ---
 
-# ARRAYS: {#array}
+# ARRAYS
 
 An example of array could be:
 
@@ -226,7 +226,7 @@ arr.unshift(first);
 
 ---
 
-# FUNCTIONS: {#function}
+# FUNCTIONS
 
 ## INTRODUCTION:
 
@@ -256,9 +256,9 @@ console.log(addThem(8, 10)); //Returns 18
 
 ---
 
-# CONTROL FLOW STATEMENTS: {#control}
+# CONTROL FLOW STATEMENTS
 
-## IF-ELSE: {if-else}
+## IF-ELSE
 
 If-else statement block is used to check if a given statement is true or false and then proceed with the result.
 
@@ -314,7 +314,7 @@ if (a > b) {
 else return c;
 ```
 
-## SWITCH-CASE STATEMENTS: {#switch}
+## SWITCH-CASE STATEMENTS
 
 When we have to check for the value of an statement and have the control flow according to only **"equal to" logic**, we use switch-case code block as its syntax is shorter than many nested if-else statements.
 
@@ -336,7 +336,7 @@ switch (arg) {
 
 ---
 
-# OBJECTS: {#object}
+# OBJECTS
 
 Objects are the datatype that exhibit the OOPS feature of the JavaScript.
 
@@ -420,7 +420,7 @@ console.log(Obj.hawOwnProperty("Last Name")); //Returns false`
 
 ---
 
-# LOOPS: {#loops}
+# LOOPS
 
 The loops are the code block which run again and again till the condition provided to them is **true**.
 The types of loops in JavaScript are:
@@ -429,7 +429,7 @@ The types of loops in JavaScript are:
 - For loop
 - Do while loop
 
-## WHILE LOOP: {#while}
+## WHILE LOOP
 
 ### SYNTAX:
 
@@ -455,7 +455,7 @@ The updatation of Condition should be done inside of the while loop.
 
 <br>
 
-## FOR LOOP: {#for}
+## FOR LOOP
 
 ### SYNTAX:
 
@@ -478,7 +478,7 @@ The for loop has thrre statements in the first line:
 
 <br>
 
-## DO WHILE LOOP: {#do-while}
+## DO WHILE LOOP
 
 ### SYNTAX:
 
@@ -501,9 +501,9 @@ This means that the do while loop will run for atleast one time, irrespective of
 
 ---
 
-# SPECIAL FUNCTIONS: {#special-func}
+# SPECIAL FUNCTIONS
 
-## MATH.RANDOM() {#random}
+## MATH.RANDOM
 
 Random() is a function that returns a decimal value between 0 to 1, 1 excluded.
 
@@ -524,7 +524,7 @@ Random = math.floor(math.random() * 20);
 
 <br>
 
-## ParseInt() {#parse-int}
+## ParseInt
 
 ParseInt function is used to convert the string type to integer type:
 
@@ -595,7 +595,7 @@ Some major differences between **var** and **let** keywords are:
 
 ---
 
-# OBJECT.FREEZE: {#object-freeze}
+# OBJECT FREEZE: {#object-freeze}
 
 If we declare an array or an object as const, we cannot change the whole array or object. But still, we can mutate the elements inside them one by one:
 
@@ -623,7 +623,7 @@ So we use object.freeze for this purpose:
 
 ---
 
-# ARRAY FILTER FUNCTION: {#arr-filter}
+# ARRAY FILTER FUNCTION
 
 Filter method creates an array filled with the elements of the reference array which pass a given test(function passed as arg).
 
@@ -639,7 +639,7 @@ var evenArr = arr.filter((num) => num % 2 == 0);
 
 ---
 
-# ARRAY MAP FUNCTION: {#arr-map}
+# ARRAY MAP FUNCTION
 
 Array map method returns an array which is modified using the given reference array with the provided instruction.
 
@@ -657,7 +657,7 @@ var sqr = arr.map((x) => x * x);
 
 ---
 
-# ARRAY REDUCE METHOD: {#arr-reduce}
+# ARRAY REDUCE METHOD
 
 Array reduce method reduces the array of elements to a single value using the commands specified.
 
@@ -682,7 +682,7 @@ var max = arr.reduce((max, a) => (max < a ? a : max), 0);
 
 ---
 
-# REST PARAMETERS: {#rest}
+# REST PARAMETERS
 
 Rest parameter are useful when we have to create a function where we don't know the exact quantity of the arguments to be passed.
 
@@ -707,7 +707,7 @@ function Sum(...args)
 
 ---
 
-# SPREAD PARAMETERS: {#spread}
+# SPREAD PARAMETERS
 
 While the rest parameter combines a bunch of arguments into an array, the spread parameter is used to divide an array into a bunch or arguments.
 
@@ -734,9 +734,9 @@ The object literals could also be spread into various (key, value) pairs using t
 
 ---
 
-# DESTRUCTURING {#destructure}
+# DESTRUCTURING
 
-## DESTRUCTURING OBJECTS: {#des-obj}
+## DESTRUCTURING OBJECTS
 
 Destructuring an object means to get the values of object's properties in variables.
 
@@ -762,7 +762,7 @@ Destructuring an object means to get the values of object's properties in variab
 
 ```
 
-## DESTRUCTURING ARRAYS: {#des-arr}
+## DESTRUCTURING ARRAYS
 
 We can also destructure the array variables in the same manner as objects:
 
@@ -786,7 +786,7 @@ let a = 6,
 //Now a = 5 and b = 6
 ```
 
-## DESTRUCTURING FUNCTION ARGUMENTS: {#des-func}
+## DESTRUCTURING FUNCTION ARGUMENTS
 
 Very often in API calls, we pass objects where we just need some of the properties of the objects. In such cases, we destructe the object to get just the ueful data:
 
@@ -816,7 +816,7 @@ function sumHorrorAndDrama({ horror, drama }) {
 
 ---
 
-# TEMPLATE LITERALS: {#template}
+# TEMPLATE LITERALS
 
 Very often we have to use a fixed literal with some values changd inside them, for example:
 
@@ -851,7 +851,7 @@ do {
 
 ---
 
-# CLASSES: {#class}
+# CLASSES
 
 Classes can be said to be templates for creating objects having same properties and methods.
 
@@ -859,7 +859,7 @@ They are used when we have to create many instances having same properties.
 
 Their usage is to replace the need of constructor function, which is harder to create and understand.
 
-## SYNTAX: {#class-syn}
+## SYNTAX
 
 The class is created using class keyword:
 
@@ -883,7 +883,7 @@ The class is created using class keyword:
 
 ```
 
-## PRIVATE AND PROTECTED PROPERTIES: {#private-protect}
+## PRIVATE AND PROTECTED PROPERTIES
 
 In javascript, the properties of a class are PUBLIC by nature, i.e. they can be accessed by anyone.
 
@@ -916,7 +916,7 @@ For example, to set the age to private and gender to protected of person class t
 
 ```
 
-## GETTER AND SETTERS:{#get-set}
+## GETTER AND SETTER
 
 Not all of the methods can access the **private/protected** properties of their object, so if we want a function to be able to interact with the private/protected properties of the object, we have to add get and set before functions, where:
 
@@ -971,7 +971,7 @@ console.log(Himanshu.Age);
 
 ---
 
-# IMPORT AND EXPORT {#imp-exp}
+# IMPORT AND EXPORT
 
 The import and export functionalities are used in JavaScript while working with multiple files.
 
