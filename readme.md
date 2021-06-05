@@ -814,7 +814,7 @@ function sumHorrorAndDrama({ horror, drama }) {
 
 ---
 
-# TEMPLATE LITERALS
+# TEMPLATE LITERAL
 
 Very often we have to use a fixed literal with some values changd inside them, for example:
 
@@ -857,7 +857,7 @@ They are used when we have to create many instances having same properties.
 
 Their usage is to replace the need of constructor function, which is harder to create and understand.
 
-## SYNTAX
+## SYNTAX FOR CLASS
 
 The class is created using class keyword:
 
