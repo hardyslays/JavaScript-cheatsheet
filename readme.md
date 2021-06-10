@@ -484,7 +484,8 @@ The for loop has thrre statements in the first line:
 ### FOR IN LOOP
 
 We can use for loop with "in" operator to traverse among the keys present in an object or indices of an array.
-**SYNNTAX:**
+/
+**SYNTAX:**
 ```js
    var Obj = {
       "Name": "Himanshu",
@@ -504,6 +505,7 @@ We can use for loop with "in" operator to traverse among the keys present in an 
 ### FOR OF LOOP
 
 We can use for loop with "of" keyword to traverse among the values present in object or array.
+/
 **SYNTAX:**
 ```js
    var Obj = {
