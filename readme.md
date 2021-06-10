@@ -29,6 +29,8 @@ At last, nothing comes without practice, so if you want to get some real experie
 7. [LOOPS](#loops)
    - [WHILE LOOP](#while-loop)
    - [FOR LOOP](#for-loop)
+      - [FOR IN](#for-in-loop)
+      - [FOR OF](#for-of-loop)
    - [DO WHILE LOOP](#do-while-loop)
    - [SPECIAL FUNCTIONS](#special-functions)
 8. [VAR VS LET](#var-vs-let)
@@ -144,7 +146,8 @@ Types of operators:
 6. Other:
    - Typeof operator (**typeof** var)
    - Delete operator (**delete** var)
-   - in operator (element **in** arr)
+   - in operator (key **in** arr/object)
+   - of operator (value **of** arr/object)
    - instanceof operator (**instanceof** obj)
    - void operator ( **void(0)** )
    - Ternery operator [ ()? yes : no;]
@@ -477,6 +480,47 @@ The for loop has thrre statements in the first line:
 - **Update**: Updating the var of Condition.
 
 <br>
+
+### FOR IN LOOP
+
+We can use for loop with "in" operator to traverse among the keys present in an object or indices of an array.
+**SYNNTAX:**
+```js
+   var Obj = {
+      "Name": "Himanshu",
+      "Age" : 23
+      };
+   var arr = ["Hello", "there"];
+   
+   for(key in obj)
+   {
+      console.log(key); //Prints "name" and "Age"
+   }
+   for(index in arr)
+   {
+      console.log(index);  /Prints 1 and 2
+   }
+```
+### FOR OF LOOP
+
+We can use for loop with "of" keyword to traverse among the values present in object or array.
+**SYNTAX:**
+```js
+   var Obj = {
+      "Name": "Himanshu",
+      "Age" : 23
+      };
+   var arr = ["Hello", "there"];
+   
+   for(key in obj)
+   {
+      console.log(key); //Prints "Himanshu" and 23
+   }
+   for(index in arr)
+   {
+      console.log(index);  /Prints "Hello" and "there"
+   }
+```
 
 ## DO WHILE LOOP
 
